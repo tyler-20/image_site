@@ -6,6 +6,9 @@
       <router-link to="/liked">Liked</router-link>
     </div>
     <router-view/>
+  <div class="footer">
+    <h2><a href="https://github.com/tyler-20/image_site">GitHub</a></h2>
+  </div>
   </div>
 </template>
 
@@ -34,6 +37,13 @@
 #nav a {
   font-weight: bold;
   color: #f9f9f9;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  padding-right: 100px;
 }
 
 #nav a.router-link-exact-active {
